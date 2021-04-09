@@ -83,7 +83,7 @@ while True:
     if success == False:
         break
     if i%3 == 0:
-        cv2.imwrite('kang'+str(i)+'.jpg',img)
+        cv2.imwrite('test\kang'+str(i)+'.jpg',img)
     i+=1
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
